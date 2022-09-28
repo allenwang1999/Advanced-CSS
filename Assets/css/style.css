@@ -123,12 +123,12 @@ main {
     z-index: 2;
 }
 
-#proj-placeholder-img {
+.proj-placeholder-img {
     opacity: .6;
     transition: opacity 0.4s;
 }
 
-.body-card figure:hover #proj-placeholder-img {
+.body-card figure:hover .proj-placeholder-img {
     opacity: 1;
     transition: opacity 0.4s;
 }
@@ -144,4 +144,12 @@ main {
 
 .caption-card-sub {
     margin-top: -16%;
+}
+
+.image-link {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    flex-grow: 1;
+    text-decoration: none;
 }
