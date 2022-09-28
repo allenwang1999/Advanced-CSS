@@ -1,0 +1,144 @@
+* {
+    background: #1A1D21;
+    color: #D1D2D3;
+    font-size: 16px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.5;
+}
+
+h1, h2, p {
+    background: transparent;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2% 0;
+    margin: 0 7.5%;
+}
+
+nav {
+    justify-content: flex-end;
+    min-width: 30%;
+    display: flex;
+    flex-direction: row;
+    font-size: 32px;
+}
+
+nav a {
+    margin: 0 2%;
+}
+
+.capy-main {
+    display: flex;
+    flex-direction: column;
+    margin: 1% 0;
+    align-items: center;
+}
+
+#capy-img {
+    width: 60%;
+    height: auto;
+}
+
+.capy-caption {
+    align-self: flex-end;
+    margin-right: 25%;
+    margin-top: -4%;
+    padding: 1%;
+    text-align: end;
+    background: #515861;
+}
+
+.divider {
+    margin: 0 5%;
+    border-top: 4px solid #9a9a9c;
+    border-radius: 3px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-card-container {
+    margin-top: 4%;
+    display: flex;
+    flex-direction: row;
+    align-items: top;
+    margin-left: 6%;
+    margin-right: 7.5%; 
+}
+
+.title-card {
+    min-width: 15%;
+    text-align: end;
+    margin-right: 1%;
+    padding-top: 1%;
+}
+
+.body-card {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border-left: 4px solid #9a9a9c;
+    padding: 1%;
+    background: #2c3138;
+    width: 70%;
+    justify-content: space-between;
+}
+
+.js-proj-main {
+    background: transparent;
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    flex-grow: 1;
+}
+
+.caption-card, .caption-card-sub{
+    margin-top: -8%;
+    padding: 1%;
+    display: flex;
+    flex-direction: column;
+    background: #515861;
+    align-self: flex-end;
+    z-index: 2;
+}
+
+#proj-placeholder-img {
+    opacity: .6;
+    transition: opacity 0.4s;
+}
+
+.body-card figure:hover #proj-placeholder-img {
+    opacity: 1;
+    transition: opacity 0.4s;
+}
+
+.js-proj-sub {
+    margin-top: 2%;
+    background: transparent;
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+}
+
+.caption-card-sub {
+    margin-top: -16%;
+}
