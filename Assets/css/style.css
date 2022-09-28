@@ -153,3 +153,27 @@ main {
     flex-grow: 1;
     text-decoration: none;
 }
+
+@media screen and (max-width: 768px) {
+    .body-card {
+        flex-direction: column;
+    }
+    .js-proj-main, .js-proj-sub {
+        width:100%;
+        margin-bottom: 0%;
+    }
+    .caption-card, .caption-card-sub {
+        margin: 0%;
+        padding: 0%;
+        flex-direction: column;
+        align-self: center;
+        width: 100%;
+        text-align: center;
+    }
+    .capy-caption {
+        align-self: center;
+        margin: 0%;
+        padding: 0%;
+        text-align: center;
+    }
+}
