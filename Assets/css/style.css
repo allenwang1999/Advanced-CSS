@@ -21,6 +21,7 @@ h2 {
 body {
     display: flex;
     flex-direction: column;
+    margin-bottom: 2%;
 }
 
 header {
@@ -86,7 +87,7 @@ main {
 }
 
 .title-card {
-    min-width: 15%;
+    width: 15%;
     text-align: end;
     margin-right: 1%;
     padding-top: 1%;
@@ -101,6 +102,7 @@ main {
     background: #2c3138;
     width: 70%;
     justify-content: space-between;
+    align-items: center;
 }
 
 .js-proj-main {
@@ -137,6 +139,7 @@ main {
     display: flex;
     flex-direction: column;
     width: 45%;
+    margin-bottom: 2%;
 }
 
 .caption-card-sub {
