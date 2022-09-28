@@ -8,7 +8,7 @@ The problem in Chalenge Two is to create a webpage using HTML and CSS that displ
 ![Challenge Two Webpage Preview](./Assets/challenge2preview.jpg)
 
 ## Usage
-To view the refactored webpage, go to https://allenwang1999.github.io/Advanced-CSS using your browser.
+To view the webpage, go to https://allenwang1999.github.io/Advanced-CSS using your browser.
 
 ## License
 MIT License; refer to the <a href="LICENSE">LICENSE</a> file in the repo.
